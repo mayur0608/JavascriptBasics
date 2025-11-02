@@ -19,3 +19,9 @@ console.log(person)
 
 //to check if the property exist in an object or not
 console.log('gender' in person)
+
+//enchanced for loop
+for (let key in person){
+
+    console.log(person[key])
+}
