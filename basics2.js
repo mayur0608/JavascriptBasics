@@ -1,8 +1,14 @@
 
 let person ={
     firstName: 'Mayur',
-    lastName: 'Baghla'
+    lastName: 'Baghla',
+    age : 25,
+    fullname : function (){
+        console.log(this.firstName+ this.lastName)
+    }
+
 }
+
 
 console.log(person.firstName)
 console.log(person.lastName)
@@ -25,3 +31,5 @@ for (let key in person){
 
     console.log(person[key])
 }
+
+console.log(person.fullname())
